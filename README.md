@@ -11,7 +11,7 @@
 Το **FashionStore** είναι ένα demo e-shop που σχεδιάστηκε στο πλαίσιο φοιτητικού project, με έμφαση στη λειτουργικότητα του καλαθιού, το responsive layout και τη δομή front-end.
 
 ---
-<img src="images/preview1.png" alt="Home Page" width="600"/>
+<img src="assets/images/preview 1.png" alt="Home Page" width="600"/>
 ## 🔑 Features
 
 ### 🛍️ Product Catalog
@@ -25,17 +25,17 @@
 - Αυτόματος υπολογισμός συνολικού ποσού
 - Αποθήκευση καλαθιού με `localStorage`
 - Δείκτης προϊόντων στο καλάθι σε όλες τις σελίδες
-<img src="images/preview2.png" alt="Products" width="600"/>
+<img src="assets/images/preview 2.png" alt="Products" width="600"/>
 ### 📬 Contact Page
 - Ενσωματωμένη φόρμα επικοινωνίας
 - HTML5 validation με custom μηνύματα
 - Εμφάνιση επιβεβαίωσης αποστολής
-<img src="images/preview3.png" alt="Contact us" width="600"/>
+<img src="assets/images/preview 3.png" alt="Contact us" width="600"/>
 ### 🔢 Cart Management
 - Σελίδα με αναλυτική λίστα καλαθιού και ποσότητες
 - Κουμπί εκκαθάρισης καλαθιού
 - Διαδικασία checkout (placeholder)
-<img src="images/preview4.png" alt="Cart" width="600"/>
+<img src="assets/images/preview 4.png" alt="Cart" width="600"/>
 ---
 
 ## 🗂️ File Structure
