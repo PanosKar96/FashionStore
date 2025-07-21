@@ -48,7 +48,7 @@ Clear cart functionality
 
 Checkout process (placeholder)
 
-          File Structure
+File Structure:
 
 ├── index.html             # Home page
 ├── products.html          # Product listing page
@@ -111,7 +111,7 @@ form.addEventListener('submit', event => {
 });
 
               
-          Future Improvements
+   Future Improvements
 User authentication system
 
 Backend integration
@@ -124,10 +124,11 @@ Advanced product filtering
 
 Wishlist functionality
 
-            Contributing
+
+Contributing!
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
             
-                                                                                    FashionStore © 2025 - Built with ❤️ for the Greek e-commerce market
+ FashionStore © 2025 - Built with ❤️ for the Greek e-commerce market
       
