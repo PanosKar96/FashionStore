@@ -40,3 +40,56 @@
 
 ## 🗂️ File Structure
 
+FashionStore/
+├── index.html # Home page
+├── products.html # Product listing
+├── cart.html # Shopping cart
+├── contact.html # Contact page
+├── css/
+│ └── style.css # Custom styles
+├── js/
+│ └── script.js # Core JS logic
+└── assets/
+└── images/
+├── tshirt.jpg
+├── jeans.jpg
+└── jacket.jpg
+
+
+---
+
+## ⚙️ Core Functionality (JS Snippets)
+
+```js
+function getCart() {
+  return JSON.parse(localStorage.getItem('cart')) || [];
+}
+
+function saveCart(cart) {
+  localStorage.setItem('cart', JSON.stringify(cart));
+  updateCartCount();
+}
+
+function addToCart(item) {
+  const cart = getCart();
+  const existing = cart.find(i => i.title === item.title);
+  if (existing) {
+    existing.quantity += item.quantity;
+  } else {
+    cart.push(item);
+  }
+  saveCart(cart);
+}
+
+// Contact form validation
+const form = document.getElementById('contact-form');
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  if (!form.checkValidity()) {
+    form.classList.add('was-validated');
+    return;
+  }
+  alert('Your message has been sent successfully!');
+  form.reset();
+  form.classList.remove('was-validated');
+});
