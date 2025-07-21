@@ -64,6 +64,12 @@ Checkout process (placeholder)
         ├── jeans.jpg
         └── jacket.jpg
 
+
+
+
+
+
+
         Core Functionality
 
 // Cart management functions
